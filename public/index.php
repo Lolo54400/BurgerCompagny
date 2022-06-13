@@ -47,9 +47,20 @@
             </div>
         </nav>
     </header>
+    <?php
+if(isset($_GET['page'])){
+    switch($_GET['page']){
+
+        case'page2':
+            include('page2.php');
+            break;
+    }
+}
+
+?>
     <section class="cover">
         <h1 class="cover-title">Burger Company</h1>
-        <button type="button" class="btn btn-danger"><a href="#" class="Button1">Voir tout nos produits</a></button>
+        <button type="button" class="btn btn-danger"><a href="page2.php?" class="Button1">Voir tout nos produits</a></button>
         <p class="cover-description"> Commandez vos plats préférés en quelques clics !</p>
     </section>
 
@@ -81,7 +92,7 @@
 
     <section class="section3">
         <div class="categorie">
-            <h2>Categories</h2>
+            <h2 class="titre-cat">Categories</h2>
             <p>A ne surtout pas rater</p>
             </div>
 
@@ -124,7 +135,7 @@
 
     <section class="section4">
         <div class="container">
-            <div class="droite">
+            <div class="gauche">
                 <h2>Notre Restaurant</h2>
                 <p>Retrouvez-nous proche de chez vous</p>
                 <h4>Burger Company</h4>

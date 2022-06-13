@@ -6,7 +6,7 @@ body {
     
 }
 h1{
-    font-size: 250%;
+    font-size: 270%;
 }
 .cover {
     background-image: url('../img/Cover.png');
@@ -29,6 +29,9 @@ h1{
 }
 .btn{
     margin: 1%;
+}
+.cover-description{
+    font-size: 130%;
 }
 .section2{
     height: 45vh;
@@ -57,7 +60,7 @@ margin: 0;
     
 }
 .textcube{
-    font-size: 60%;
+    font-size: 90%;
 }
 .cube{
     display: flex;
@@ -110,8 +113,10 @@ margin: 0;
     justify-content: center;
     align-content: center;
     align-items: center;
-    
    
+}
+.titre-cat{
+    margin: 1%;
 }
 .rectangles{
     width: 80vw;
@@ -130,19 +135,20 @@ margin: 0;
     
 }
 .choix{
-    background-color: aqua;
+    background-color: white;
     width: 25vw;
     height: 15vh;
 }
 
 
 h5{
-    font-size: 80%;
+    font-size: 100%;
 
 }
 
 p{
-    font-size: 70%;
+    font-size: 90%;
+    margin-bottom: 3%;
 }
 .btn_burger{
     color: white;
@@ -162,11 +168,12 @@ p{
     justify-content: center;
     justify-content: space-between;
 }
-.droite{
+.gauche{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 120%;
 
 }
 .map{
@@ -174,4 +181,9 @@ p{
 }
 .hrcontact{
     width: 50vh;
+}
+
+
+.menupage2{
+
 }
