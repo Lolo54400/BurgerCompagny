@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/274ac46116.js" crossorigin="anonymous"></script>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../public/assets/style.css">
     <script src="https://kit.fontawesome.com/742768abf7.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/lys1-e9cd8.appspot.com/o/logos%2Ffoodexpress.png?alt=media&token=f193dfc3-cc60-4f9f-b180-eb623850e74f" type="image/x-icon">
     <title>Burger Compagny</title>
@@ -59,13 +59,121 @@ if(isset($_GET['page'])){
         <p class="cover-description"> Commandez vos plats préférés en quelques clics !</p>
     </section>
  <div class="menupage2">
-        <h3 class="menupage2"></h3>Nos burgers</h3>
-        <h3>Nos Salades</h3>
-        <h3>Nos Desserts</h3>
-        <h3>Nos Boissons</h3>
-        <hr>
+        <h3>Burgers</h3>
+        <h3>Salades</h3>
+        <h3>Desserts</h3>
+        <h3>Boissons</h3>
+        
+    </div>
+    <hr>
+    <div class="text-div">
+        <h3>Burgers</h3>
+        <p>Découvrez nos Burgers.</p>
+    </div>
+       
+        <div class="cube-div">
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+        </div>
     </div>
 
-    <div>
-        Nos burger div
+    <hr>
+
+    <div class="text-div">
+        <h3>Salades</h3>
+        <p>Découvrez nos Salades.</p>
     </div>
+        <div class="cube-div">
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+        </div>
+    </div>  
+
+    <hr>
+
+    <div class="text-div">
+        <h3>Desserts</h3>
+        <p>Découvrez nos Desserts.</p>
+    </div>
+        <div class="cube-div">
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+        </div>
+    </div>  
+
+    <hr>
+
+    <div class="text-div">
+        <h3>Boissons</h3>
+        <p>Découvrez nos Boissons.</p>
+    </div>
+        <div class="cube-div">
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+        </div>
+    </div>  
+    <hr>

@@ -185,5 +185,42 @@ p{
 
 
 .menupage2{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+.text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cube-div{
+    width: 70%;
+    margin: 2% auto;
+    font-size: 100%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-inline: auto;
+    row-gap: 5%;
+    column-gap: 5%;
+    
+}
+.cube-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 18vw;
+    height: 28vh;
+    text-align: center;
+    border-radius: 5px;
+    border: 0.5px solid rgba(94, 94, 94, 0.459);
+    box-shadow: 2px 5px 10px rgba(148, 148, 148, 0.623);
+    
+}
+
