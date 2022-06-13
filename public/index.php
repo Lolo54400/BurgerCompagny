@@ -12,7 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/274ac46116.js" crossorigin="anonymous"></script>
     <!-- CSS only -->
+<<<<<<< HEAD
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+=======
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+>>>>>>> main
     <link rel="stylesheet" href="../public/assets/style.css">
     <script src="https://kit.fontawesome.com/742768abf7.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../public/img/BURGER_COMPANY_Logo-Favicon.png" type="image/x-icon">
@@ -100,7 +104,6 @@
 
             <div class="rectangle">
                 <div class="choix">
-                    <img class="img_cat" src="img\burger\triple cheese.png" alt="" name="burger">
                     <h5>Nos Burgers</h5>
                     <p class="prix">A partir de 4,50 €</p>
                     <button button type="button" class="btn btn-danger"><a href="#" class="btn_burger">Choisissez</a></button>

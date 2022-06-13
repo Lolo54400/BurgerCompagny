@@ -58,14 +58,131 @@
         <button type="button" class="btn btn-danger"><a href="index.php?" class="Button1">Accueil</a></button>
         <p class="cover-description"> Commandez vos plats préférés en quelques clics !</p>
     </section>
+<<<<<<< HEAD
     <div class="menupage2">
         <h3 class="menupage2"></h3>Nos burgers</h3>
         <h3>Nos Salades</h3>
         <h3>Nos Desserts</h3>
         <h3>Nos Boissons</h3>
         <hr>
+=======
+ <div class="menupage2">
+        <h3>Burgers</h3>
+        <h3>Salades</h3>
+        <h3>Desserts</h3>
+        <h3>Boissons</h3>
+        
+    </div>
+    <hr>
+    <div class="text-div">
+        <h3>Burgers</h3>
+        <p>Découvrez nos Burgers.</p>
+    </div>
+       
+        <div class="cube-div">
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+        </div>
+>>>>>>> main
     </div>
 
-    <div>
-        Nos burger div
+    <hr>
+
+    <div class="text-div">
+        <h3>Salades</h3>
+        <p>Découvrez nos Salades.</p>
     </div>
+        <div class="cube-div">
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+        </div>
+    </div>  
+
+    <hr>
+
+    <div class="text-div">
+        <h3>Desserts</h3>
+        <p>Découvrez nos Desserts.</p>
+    </div>
+        <div class="cube-div">
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+        </div>
+    </div>  
+
+    <hr>
+
+    <div class="text-div">
+        <h3>Boissons</h3>
+        <p>Découvrez nos Boissons.</p>
+    </div>
+        <div class="cube-div">
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+                <div class="cube-menu">
+                    
+                </div>
+        </div>
+    </div>  
+    <hr>
