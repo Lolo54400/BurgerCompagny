@@ -12,10 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/274ac46116.js" crossorigin="anonymous"></script>
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/assets/style.css">
     <script src="https://kit.fontawesome.com/742768abf7.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/lys1-e9cd8.appspot.com/o/logos%2Ffoodexpress.png?alt=media&token=f193dfc3-cc60-4f9f-b180-eb623850e74f" type="image/x-icon">
+    <link rel="shortcut icon" href="../public/img/BURGER_COMPANY_Logo-Favicon.png" type="image/x-icon">
     <title>Burger Compagny</title>
 </head>
 
@@ -26,9 +26,9 @@
             <div class="container">
                 <a href="#" class="navbar-brand">
                     <!-- Logo Image -->
-                    <img src="https://firebasestorage.googleapis.com/v0/b/lys1-e9cd8.appspot.com/o/logos%2Ffoodexpress.png?alt=media&token=f193dfc3-cc60-4f9f-b180-eb623850e74f" width="40" alt="" class="d-inline-block align-middle mr-2">
+                    <img src="../public/img/BURGER_COMPANY_Logoriginal.svg" width="140" alt="" class=" ">
                     <!-- Logo Text -->
-                    <span class="text-uppercase font-weight-bold">Burger Company</span>
+                    <!-- <span class="text-uppercase font-weight-bold">Burger Company</span> -->
                 </a>
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarToggleExternalContent5" aria-controls="navbarToggleExternalContent5" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,23 +41,23 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="#" class="nav-link">Panier</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Commande</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Connexion</a></li>
+                        <li class="nav-item"><a href="../traitement/login.php" class="nav-link">Connexion</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <?php
-if(isset($_GET['page'])){
-    switch($_GET['page']){
+    if (isset($_GET['page'])) {
+        switch ($_GET['page']) {
 
-        case'page2':
-            include('page2.php');
-            break;
+            case 'page2':
+                include('page2.php');
+                break;
+        }
     }
-}
 
-?>
+    ?>
     <section class="cover">
         <h1 class="cover-title">Burger Company</h1>
         <button type="button" class="btn btn-danger"><a href="page2.php?" class="Button1">Voir tout nos produits</a></button>
@@ -68,21 +68,21 @@ if(isset($_GET['page'])){
         <div class="troiscube">
             <div class="cube">
                 <ul class="icon">
-                    <i class="fa-regular fa-clock"></i>
+                    <i class="fas fa-clock fa-2x"></i>
                 </ul>
                 <h2>RAPIDITÉ</h2>
                 <p class="textcube">Nous préparons votre commande le plus rapidement possible</p>
             </div>
             <div class="cube">
                 <ul class="icon">
-                    <i class="fa-regular fa-clock"></i>
+                    <i class="	fas fa-shopping-basket fa-2x"></i>
                 </ul>
                 <h2>CLICK & COLLECT</h2>
                 <p class="textcube">Commandez et emporter, on s'occupe de tout pour vous.</p>
             </div>
             <div class="cube">
                 <ul class="icon">
-                    <i class="fa-regular fa-clock"></i>
+                    <i class="fab fa-bitcoin fa-2x"></i>
                 </ul>
                 <h2>PAIEMENT SÉCURISÉ</h2>
                 <p class="textcube">N'ayez aucune crainte pour votre argent. Payement sécuriser via notre site </p>
@@ -175,7 +175,7 @@ if(isset($_GET['page'])){
         </nav>
     </footer>
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
