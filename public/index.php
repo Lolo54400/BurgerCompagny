@@ -48,6 +48,7 @@
         </nav>
     </header>
     <div class="text-white cover" id="cover">
+        <img src="/img/pexels-cover.jpg" alt="">
         <div class="px-sm-5 py-sm-4 text-white">
             <div class="row h-100 mt-sm-0 justify-content-center">
                 <div class="row text-center mt-sm-0 ">
