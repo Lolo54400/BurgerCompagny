@@ -66,6 +66,10 @@
                     <input type="text" class="form-control" id="exampleDropdownFormEmail1" placeholder="prénom" required>
                 </div>
                 <div class="mb-3">
+                    <label for="exampleDropdownFormEmail1" class="form-label">Date de naissance </label>
+                    <input type="date" class="form-control" id="exampleDropdownFormEmail1" placeholder="date naissance" required>
+                </div>
+                <div class="mb-3">
                     <label for="exampleDropdownFormEmail1" class="form-label">Adresse </label>
                     <input type="text" class="form-control" id="exampleDropdownFormEmail1" placeholder="adresse" required>
                 </div>
@@ -94,12 +98,12 @@
                     <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Confirmer Password" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleDropdownFormEmail1" class="form-label">Date de naissance </label>
-                    <input type="date" class="form-control" id="exampleDropdownFormEmail1" placeholder="date naissance" required>
+
+                    <button type="submit" class="btn btn-primary">S'inscrire</button>
                     <div class="form-check">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">S'inscrire</button>
+
             </form>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="../traitement/login.php">Déjà client? Connectez-vous ici</a>

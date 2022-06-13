@@ -1,0 +1,27 @@
+Ici Vous trouverez les commandes Git de base les plus utilisées : 
+
+Pour initialisé un repo Git -> git init
+
+Relier son repo local a un repo distant -> git remote add origin <url>
+
+Pour cloné (recopier) un repo Git distant -> git clone <url>
+
+Pour ajouté au suivi des modifications -> git add <nomDuFichier> OU . (pour ajouter tout les fichiers)
+
+Pour préparer l'envoi des modifications au repo distant -> git commit -m 'mon commentaire'
+
+Pour envoyer les modifications -> git push  (git push -u origin <nomDeLaBranche> lors du premier push)
+
+Pour créer une nouvelle branche -> git branch <leNomDeLaBranche>
+
+Pour changer de branche -> git checkout <leNomDeLaBranche>
+
+Pour créer une nouvelle branche puis s'y mettre -> git checkout -b <leNomDeLaBranche>
+
+Lister les branches existantes -> git branch -l
+
+Récuperer les modifications apportée au repositories distant sans modifier ses fichier locaux -> git fetch
+
+Récuperer les modification et les fusionner avec ses fichier locaux -> git pull
+
+Annulé les modifications apporté au fichier depuis le dernier commit -> git stash
